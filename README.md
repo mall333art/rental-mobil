@@ -1,5 +1,7 @@
 # RENTAL MOBIL AKMAL
+
 ## perintah dasar git
+
 ```bash
 # Konfigurasi git Pertama kali
 git config --global user.name "Muhammad Akmal Meiza"
@@ -15,8 +17,9 @@ git commit -am "Komentar perubahan"
 git push
 
 # Konfigurasi git dari Cloning repository
+git pull
 git add .
 git commit -am "Komentar Perubahan"
 git push
-```
 
+```
