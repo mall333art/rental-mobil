@@ -17,7 +17,7 @@ git remote add origin https://github.com/(username)/(nama-proyek).git
 git add .
 
 # Commit pertama
-git commit -m "Commit pertama"
+git commit -m "Komentar perubahan"
 
 # Set branch main dan push
 git branch -M main
