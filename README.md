@@ -1,25 +1,25 @@
-# RENTAL MOBIL AKMAL
+# UP PROJEK
 
-## perintah dasar git
+## Perintah dasar git
 
-```bash
-# Konfigurasi git Pertama kali
+```
+# Konfigurasi identitas pertama kali
 git config --global user.name "Muhammad Akmal Meiza"
 git config --global user.email "muhammadakmalmeiza2@gmail.com"
 
-# Konfigurasi Project Pertama kali
+# Inisialisasi project
 git init
+
+# Tambah remote repository
 git remote add origin https://github.com/(username)/(nama-proyek).git
 
+# Tambah semua file
 git add .
+
+# Commit pertama
+git commit -m "Commit pertama"
+
+# Set branch main dan push
 git branch -M main
-git commit -am "Komentar perubahan"
-git push
-
-# Konfigurasi git dari Cloning repository
-git pull
-git add .
-git commit -am "Komentar Perubahan"
-git push
-
+git push -u origin main
 ```
